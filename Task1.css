@@ -1,0 +1,71 @@
+#image
+    {
+       width: 117%;
+       height: 700px;
+       border: radius 4px;
+       margin-left: 60px;
+
+
+    }
+  #text
+    {
+     margin-top: 200px;
+    
+     color: white;
+
+    }
+    
+    
+  body
+    {
+         background-color: #010424;
+    }
+    
+    @media screen and (min-width: 480px) {
+        #sign {width: 400px; float: right;}
+        #mail {margin-left: 200px;}
+       }
+
+       @media screen and (min-width: 480px) {
+        #text {width: 400px; float: left;}
+        #image{margin-right: 200px;}
+       }
+
+    .head
+    {
+        background:radial-gradient(circle, rgba(49,140,231,1) 0%, rgba(29,17,96,1) 19%);
+        color: white;
+    
+        
+        
+    }
+
+    #email
+    {
+        margin-top: 20px;
+        text-align: center;
+        border-color: hsl(223, 100%, 63%);
+        size: 50;
+        height: 40px;
+        border-color: white;
+        background: transparent;
+        color: white;
+    
+    }
+    #button
+    {
+        margin-top:20px;
+        background-color: skyblue;
+        text-align: center;
+        height: 40px;
+    }
+    form
+    {
+        display:flex;
+        flex-direction:row;
+        padding: 10px 15px;
+        font-size: 20px;
+        
+    
+    }
+    
